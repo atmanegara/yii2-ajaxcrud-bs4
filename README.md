@@ -53,6 +53,12 @@ Let 's add into modules config in your main config file
     ]       
 ]
 ````
+Then, add this section of code to your application params configuration file (e.g. config/params.php):
+````php
+'params' => [
+    'bsVersion' => '4.x', 
+]
+````
 
 You can then access Gii through the following URL:
 
